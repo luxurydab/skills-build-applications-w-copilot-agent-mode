@@ -1,0 +1,104 @@
+/* OctoFit Tracker App - Modern, colorful, fitness-inspired theme */
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  background: #22223b;
+  color: #f2e9e4;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+}
+
+.app-logo {
+  height: 48px;
+  margin-right: 1.5rem;
+}
+
+nav {
+  margin-left: 2rem;
+}
+
+nav a {
+  color: #9a8c98;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 1.5rem;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #f2e9e4;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #4a4e69;
+  letter-spacing: 1px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f2e9e4;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.05);
+  margin-bottom: 2rem;
+}
+
+table th, table td {
+  border: 1px solid #c9ada7;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+table th {
+  background: #9a8c98;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #e0e1dd;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #9a8c98 0%, #4a4e69 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0.5rem 0;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 6px rgba(34,34,59,0.08);
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #4a4e69 0%, #9a8c98 100%);
+}
+
+a {
+  color: #22223b;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #9a8c98;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #c9ada7;
+}
+::-webkit-scrollbar-thumb {
+  background: #9a8c98;
+  border-radius: 4px;
+}
